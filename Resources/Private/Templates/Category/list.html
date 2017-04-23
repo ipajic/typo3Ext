@@ -1,0 +1,14 @@
+<table border="1" cellspacing="1" cellpadding="5">
+    <tr>
+        <td><strong>Name</strong></td>
+        <td><strong>Description</strong></td>
+    </tr>
+    <f:for each="{categories}" as="category">
+        <tr>
+            <td align="top">{category.name}</td>
+            <td align="top">
+                <f:format.crop maxCharacters="100">{category.description}</f:format.crop>
+            </td>
+        </tr>
+    </f:for>
+</table>
