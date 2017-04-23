@@ -1,0 +1,12 @@
+{
+ "name": "Pajic/inventory",
+ "description": "",
+ "minimum-stability": "alpha",
+ "license": "proprietary",
+ "authors": [
+  {
+   "name": "Ilija Pajic",
+   "email": "ilijapajic@hotmail.com"
+  }
+ ]
+}
