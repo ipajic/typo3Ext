@@ -1,0 +1,5 @@
+KOMMENTAR FÜR: ext_tables.sql
+
+/*! Diese Datei wird benötigt um die Tabelle der einzelenen Models (Produkt und Category) zu erstellen. Im Model wird nur beschrieben wie das Produkt/die Kategorie ausschaut. Jedoch steht nicht drinnen, wie lang z.b. ein string sein kann (das steht in ext_tables.php bzw. im TCA [typo configuration array] drinnen)*/
+
+    /*!Die Tabelle muss folgendermaßen heißen: tx_[extension Key]_domain_model_[name des Models]*/
